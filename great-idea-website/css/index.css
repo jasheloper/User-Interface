@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* Jashele Tillman's Demonstration of inline boxes. */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,6 +63,167 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+  text-align: left;
 }
 
 /* Your code starts here! */
+
+#container {
+  width: 950px;
+  margin: auto;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+
+nav {
+  padding: 30px;
+  text-align: center;
+}
+
+nav a {
+ color: gray; 
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+.title {
+  font-size: 80px;
+  text-align: center;
+  
+}
+
+.top-content {
+    margin: auto;
+   display: flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+  justify-content: space-around;
+padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.left-intro {
+  width: 300px;
+  text-align: center;
+}
+
+.right-intro {
+  width: 300px;
+}
+
+.feature-about {
+  margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-top: 25px;
+padding-bottom: 25px;
+border-top: 1px solid;
+}
+
+.box-item {
+  width: 430px;
+}
+
+.middle-img {
+  padding: 15px;
+}
+
+.bottom-section {
+  margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+
+.box-item-bottom {
+  width: 280px;
+}
+
+.contact {
+  padding: 50px;
+  width: 300px;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}
+
+
+/*
+DID NOT USE FOR LATEST ASSIGNMENT. CODE ALMOST ENTIRELY CHANGED & REFACTORED. BELOW CODE IS FROM THE INLINE ASSIGNMENT. -Jashele T. / April 24, 2019 @ 4:05pm
+
+
+.box2 {
+  width: 200px;
+ display: inline-block;
+  margin-left: 250px;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.started {
+  border: 1px solid;
+  width: 170px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.top {
+  border-top: 1px solid;
+  margin-left: 50px;
+}
+
+.box3 {
+  width: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+}
+.box4 {
+    width: 400px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.box5 {
+     width: 295px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}
+.box6 {
+   width: 295px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}
+.box7 {
+   width: 295px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.section-section {
+border-bottom: 1px solid;
+    
+}
+
+*/
